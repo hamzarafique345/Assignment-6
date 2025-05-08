@@ -4,7 +4,7 @@
 
 def add_greeting(cls):
     def greet(self):
-        return "Hello from Decorator!"
+        return "Hello from Decorator"
     cls.greet = greet
     return cls
 
